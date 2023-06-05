@@ -1,0 +1,6 @@
+body{ 
+  background-color: #fcc1bc;
+  display: grid;
+  justify-content: center;
+  box-shadow: 10%;
+}

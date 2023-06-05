@@ -1,0 +1,125 @@
+#all {
+  background-color: #325061;
+  border-radius: 60px;
+  width: 600px;
+  padding: 50px;
+  border-color: #1F303A;
+  border-style: ridge;
+  border-width: 10px;
+}
+
+.titulo {
+  text-align: center;
+  color: #97C8E7;
+}
+
+.form {
+  align-items: center;
+}
+
+.filtrar {
+  align-content: center;
+  color: #97C8E7;
+}
+
+.btnInserir {
+  background-color: rgb(196, 255, 168);
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border: none;
+  transition: 0.3s;
+  box-shadow: 0 9px #1F303A
+}
+
+.btnInserir:hover {
+  background-color: rgb(5, 143, 0);
+  color: rgb(255, 255, 255);
+}
+
+.btnInserir:active {
+  background-color: rgb(5, 143, 0);
+  box-shadow: 0 5px #1F303A;
+  transform: translateY(4px);
+  transition: 0s;
+}
+
+.btnClose {
+  border-width: 1px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  transition: 0.3s;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+.btnClose:hover {
+  border-width: 1px;
+  background-color: rgb(255, 0, 0);
+  color: antiquewhite;
+}
+
+.btnEdit {
+  border-width: 1px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  transition: 0.3s;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+.btnEdit:hover {
+  border-width: 1px;
+  background-color: rgb(0, 81, 255);
+  color: antiquewhite;
+}
+
+li {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  background-color: #EFEFEF;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  border-radius: 10px;
+  border-width: 1px;
+  width: 500px;
+  height: 30px;
+}
+
+.checkbox {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  color: #97C8E7;
+}
+
+.error {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-size: 20px;
+}
+
+.success {
+  color: white;
+  background-color: rgb(5, 143, 0);
+  text-align: center;
+  font-size: 20px;
+}
